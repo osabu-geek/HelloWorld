@@ -211,7 +211,7 @@ for j in range(2, 5):
         i += 1
 
 # ========================================#===================================#==========================
-
+print()
 btnClear = Button(Calc, text = chr(67) , width = 6, height = 2, font = ('times new roman', 20, 'bold'), bd = 4,
                   bg = "powder blue", command = added_value.Clear_Entry).grid(row = 1, column = 0, pady = 1)
 
